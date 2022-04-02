@@ -1,0 +1,16 @@
+#categories{
+    background: #14fff7;
+    height: 20%;
+}
+#objects{
+    background: #f73a01;
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+#content{
+    background: #50fd17;
+    float: right;
+    width: 70%;
+    height: 100%;
+}
