@@ -17,7 +17,8 @@
         </div>
         <div id="container">
             <div id="objects">
-                <?php 
+    <?--        
+    <?php 
                 $C = $_GET["C"];
                 switch ($C) {
                     case "1": echo(file_get_contents("objects1.html")); break;
@@ -25,6 +26,7 @@
                     case "3": echo(file_get_contents("objects3.html")); break;
                     default: echo (file_get_contents("about.html"));
                 }
+                -->
             </div>
             <div id="content">
                 <?php
