@@ -30,7 +30,7 @@
                <?php
                 $O = $_GET["O"];
                 switch ($O) {
-                    case "1-1": echo(file_get_contents("object1-1.html")); break;
+                    case "1-1": echo(file_get_contents("object1-1.php")); break;
                     case "1-2": echo(file_get_contents("object1-2.html")); break;
                     case "1-3": echo(file_get_contents("object1-3.html")); break;
                     case "2-1": echo(file_get_contents("object2-1.html")); break;
