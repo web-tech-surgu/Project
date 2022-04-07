@@ -25,6 +25,7 @@
                     case "3": echo(file_get_contents("objects3.html")); break;
                     default: echo (file_get_contents("about.html"));
                 }
+            ?>
               </div>
             <div id="content">
                
