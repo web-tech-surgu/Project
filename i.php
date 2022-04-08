@@ -1,5 +1,5 @@
  <?php
-    $tmp=file_get_contents("index.tpl");
+    $tmp=file_get_contents("index.php");
     $objects="";
     $contents=""; 
        $C = $_GET["C"];
