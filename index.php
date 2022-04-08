@@ -24,7 +24,7 @@
                     default: $content=file_get_contents("applicate.php");
                 }; 
                 $tmp = str_replace("{objects}", $objects, $tmp);
-                $tmp = str_replace("{content}", $objects, $tmp);
+                $tmp = str_replace("{content}", $content, $tmp);
       echo $tmp;
                 
 ?>
