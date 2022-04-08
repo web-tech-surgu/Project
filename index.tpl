@@ -14,11 +14,11 @@
         </div>
         <div id="container">
             <div id="objects">         
-                
+             {object}   
               </div>
             <div id="content">
-              
+              {content}
             </div>
         </div>
-        </body>
+     </body>
 </html>
